@@ -1,0 +1,72 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #6c757d;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+}
+
+footer,
+.footer {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+  padding: 30px;
+}
+
+.note-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.note-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn-primary,
+.update-button {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.btn-secondary,
+.back-button {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: white;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
